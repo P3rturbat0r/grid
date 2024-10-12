@@ -1,0 +1,80 @@
+.container {
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas: "a a a a a a b b"
+                         "a a a a a a b b"
+                         "a a a a a a b b"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e g g"
+                         "c c d d d e g g"
+                         "c c d d d e g g"
+                         "c c d d d e g g"
+                         "h h h h k k k k"
+                         "h h h h k k k k"
+                         "h h h h k k k k"
+                         "j j j j k k k k"
+                         "j j j j k k k k"
+                         "n p p p p p p q"
+                         "n p p p p p p q"
+                         ;
+    grid-gap: 10px;
+}
+/*.container *{
+    border: 1px dashed green;
+    background-color: lightgreen;
+    border-radius: 10px;
+}*/
+[class^="block"]{
+    border: 1px dashed green;
+    background-color: lightgreen;
+    border-radius: 10px;
+
+
+}
+.block1{
+    grid-area: a;
+}
+.block2{
+    grid-area: b;
+}
+.block3{
+    grid-area: c;
+}
+.block4{
+    grid-area: d;
+}
+.block5{
+    grid-area: e;
+}
+.block6{
+    grid-area: f;
+}
+.block7{
+    grid-area: g;
+}
+.block8{
+    grid-area: h;
+}
+.block9{
+    grid-area: k;
+}
+.block10{
+    grid-area: j;
+}
+.block11{
+    grid-area: n;
+}
+.block12{
+    grid-area: p;
+}
+.block13{
+    grid-area: q;
+}
